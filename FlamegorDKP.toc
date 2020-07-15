@@ -1,0 +1,28 @@
+## Interface: 11304
+## Title: Пламягорыш |cFF00FF00v1.0.0
+## Notes: Аддон менеджмента DKP для гильдий орды сервера Пламегор
+## Author: Константин Шандуренко (vk.com/ks)
+## Version: 1.0.0
+## SavedVariables: FDKP_MASTER_PRIVATE_KEY, FDKP_ADMIN_PRIVATE_KEY, FDKP_RowsPerLogs, FDKP_LogsShareLimit, FDKP_MenuShown, FDKP_LogsShown, FDKP_BINLOG_RECORDS, FDKP_SNAPSHOT, FDKP_LOG_ERROR, FDKP_LOG_INFO, FDKP_LOG_DEBUG, FDKPMiniMapPosition, FDKP_SELECTED_DKP_TYPE, FDKP_USE_TEST_DISTRIBUTION
+## OptionalDeps: Ace3, LibSharedMedia-3.0, LibWindow-1.1, LibCompress
+#@no-lib-strip@
+Libs\libs.xml
+#@end-no-lib-strip@
+
+encryption.lua
+utils.lua
+access.lua
+classes.lua
+binlog.lua
+options.lua
+admins_retriever.lua
+network.lua
+
+ui/widgets.lua
+ui/administrative.lua
+ui/dkp_addition.lua
+ui/menu.lua
+ui/roll.lua
+ui/minimap.lua
+
+boot.lua
